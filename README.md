@@ -1,7 +1,8 @@
-# shashin-flask-services
-POC RESTful service for storing mobile images using Flask and DynamoDB
-
-# Setup and Deployment
+# scottie-io-python-aws-demo
+RESTful service for storing generic data to S3 using Flask.
 
 # Dependencies
-Flask, Boto, UUID
+Flask, Boto, and UUID.
+
+# Execution
+Simply run the command <code>python application.py</code>.
