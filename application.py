@@ -7,12 +7,13 @@ import uuid
 
 application = Flask(__name__)
 
-@application.route("/image/", methods = ["POST"])
-def image():
+@application.route("/data/", methods = ["POST"])
+def data():
 	try:
 		data = request.form["data"]
 		connection = boto.connect_s3()
-		bucket_name = "shashin-test"
+		#update with your S3 bucket name here
+		bucket_name = "test"
 		bucket = connection.get_bucket(bucket_name, validate = False)
 		key = Key(bucket)
 		guid = uuid.uuid4()
