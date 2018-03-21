@@ -1,4 +1,4 @@
-# scottie-io-python-aws-demo
+# scottie-gg-python-aws-demo
 RESTful service for storing generic data to S3 using Flask.
 
 # Dependencies
